@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/akash_gosain/projects/practice/cpp/LLD/DesignPatterns/MultiThreading/producer_consumer.cpp
+iostream
+-
+deque
+-
+thread
+-
+mutex
+-
+unistd.h
+-
+condition_variable
+-
+
