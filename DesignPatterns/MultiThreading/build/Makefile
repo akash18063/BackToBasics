@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named advancedMTClient
+# Target rules for targets named promisefuture
 
 # Build rule for target.
-advancedMTClient: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 advancedMTClient
-.PHONY : advancedMTClient
+promisefuture: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 promisefuture
+.PHONY : promisefuture
 
 # fast build rule for target.
-advancedMTClient/fast:
-	$(MAKE) -f CMakeFiles/advancedMTClient.dir/build.make CMakeFiles/advancedMTClient.dir/build
-.PHONY : advancedMTClient/fast
+promisefuture/fast:
+	$(MAKE) -f CMakeFiles/promisefuture.dir/build.make CMakeFiles/promisefuture.dir/build
+.PHONY : promisefuture/fast
 
 #=============================================================================
 # Target rules for targets named producerconsumer
@@ -135,33 +135,6 @@ producerconsumer: cmake_check_build_system
 producerconsumer/fast:
 	$(MAKE) -f CMakeFiles/producerconsumer.dir/build.make CMakeFiles/producerconsumer.dir/build
 .PHONY : producerconsumer/fast
-
-advancedMTClient.o: advancedMTClient.cpp.o
-
-.PHONY : advancedMTClient.o
-
-# target to build an object file
-advancedMTClient.cpp.o:
-	$(MAKE) -f CMakeFiles/advancedMTClient.dir/build.make CMakeFiles/advancedMTClient.dir/advancedMTClient.cpp.o
-.PHONY : advancedMTClient.cpp.o
-
-advancedMTClient.i: advancedMTClient.cpp.i
-
-.PHONY : advancedMTClient.i
-
-# target to preprocess a source file
-advancedMTClient.cpp.i:
-	$(MAKE) -f CMakeFiles/advancedMTClient.dir/build.make CMakeFiles/advancedMTClient.dir/advancedMTClient.cpp.i
-.PHONY : advancedMTClient.cpp.i
-
-advancedMTClient.s: advancedMTClient.cpp.s
-
-.PHONY : advancedMTClient.s
-
-# target to generate assembly for a file
-advancedMTClient.cpp.s:
-	$(MAKE) -f CMakeFiles/advancedMTClient.dir/build.make CMakeFiles/advancedMTClient.dir/advancedMTClient.cpp.s
-.PHONY : advancedMTClient.cpp.s
 
 producer_consumer.o: producer_consumer.cpp.o
 
@@ -190,6 +163,33 @@ producer_consumer.cpp.s:
 	$(MAKE) -f CMakeFiles/producerconsumer.dir/build.make CMakeFiles/producerconsumer.dir/producer_consumer.cpp.s
 .PHONY : producer_consumer.cpp.s
 
+promise_future.o: promise_future.cpp.o
+
+.PHONY : promise_future.o
+
+# target to build an object file
+promise_future.cpp.o:
+	$(MAKE) -f CMakeFiles/promisefuture.dir/build.make CMakeFiles/promisefuture.dir/promise_future.cpp.o
+.PHONY : promise_future.cpp.o
+
+promise_future.i: promise_future.cpp.i
+
+.PHONY : promise_future.i
+
+# target to preprocess a source file
+promise_future.cpp.i:
+	$(MAKE) -f CMakeFiles/promisefuture.dir/build.make CMakeFiles/promisefuture.dir/promise_future.cpp.i
+.PHONY : promise_future.cpp.i
+
+promise_future.s: promise_future.cpp.s
+
+.PHONY : promise_future.s
+
+# target to generate assembly for a file
+promise_future.cpp.s:
+	$(MAKE) -f CMakeFiles/promisefuture.dir/build.make CMakeFiles/promisefuture.dir/promise_future.cpp.s
+.PHONY : promise_future.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -198,14 +198,14 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... advancedMTClient"
+	@echo "... promisefuture"
 	@echo "... producerconsumer"
-	@echo "... advancedMTClient.o"
-	@echo "... advancedMTClient.i"
-	@echo "... advancedMTClient.s"
 	@echo "... producer_consumer.o"
 	@echo "... producer_consumer.i"
 	@echo "... producer_consumer.s"
+	@echo "... promise_future.o"
+	@echo "... promise_future.i"
+	@echo "... promise_future.s"
 .PHONY : help
 
 

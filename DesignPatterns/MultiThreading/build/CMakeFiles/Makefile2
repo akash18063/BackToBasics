@@ -53,7 +53,7 @@ CMAKE_BINARY_DIR = /home/akash_gosain/projects/practice/cpp/LLD/DesignPatterns/M
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/advancedMTClient.dir/all
+all: CMakeFiles/promisefuture.dir/all
 all: CMakeFiles/producerconsumer.dir/all
 
 .PHONY : all
@@ -64,37 +64,37 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/advancedMTClient.dir/clean
+clean: CMakeFiles/promisefuture.dir/clean
 clean: CMakeFiles/producerconsumer.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/advancedMTClient.dir
+# Target rules for target CMakeFiles/promisefuture.dir
 
 # All Build rule for target.
-CMakeFiles/advancedMTClient.dir/all:
-	$(MAKE) -f CMakeFiles/advancedMTClient.dir/build.make CMakeFiles/advancedMTClient.dir/depend
-	$(MAKE) -f CMakeFiles/advancedMTClient.dir/build.make CMakeFiles/advancedMTClient.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/akash_gosain/projects/practice/cpp/LLD/DesignPatterns/MultiThreading/build/CMakeFiles --progress-num=1,2 "Built target advancedMTClient"
-.PHONY : CMakeFiles/advancedMTClient.dir/all
+CMakeFiles/promisefuture.dir/all:
+	$(MAKE) -f CMakeFiles/promisefuture.dir/build.make CMakeFiles/promisefuture.dir/depend
+	$(MAKE) -f CMakeFiles/promisefuture.dir/build.make CMakeFiles/promisefuture.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/akash_gosain/projects/practice/cpp/LLD/DesignPatterns/MultiThreading/build/CMakeFiles --progress-num=3,4 "Built target promisefuture"
+.PHONY : CMakeFiles/promisefuture.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/advancedMTClient.dir/rule: cmake_check_build_system
+CMakeFiles/promisefuture.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/akash_gosain/projects/practice/cpp/LLD/DesignPatterns/MultiThreading/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/advancedMTClient.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/promisefuture.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/akash_gosain/projects/practice/cpp/LLD/DesignPatterns/MultiThreading/build/CMakeFiles 0
-.PHONY : CMakeFiles/advancedMTClient.dir/rule
+.PHONY : CMakeFiles/promisefuture.dir/rule
 
 # Convenience name for target.
-advancedMTClient: CMakeFiles/advancedMTClient.dir/rule
+promisefuture: CMakeFiles/promisefuture.dir/rule
 
-.PHONY : advancedMTClient
+.PHONY : promisefuture
 
 # clean rule for target.
-CMakeFiles/advancedMTClient.dir/clean:
-	$(MAKE) -f CMakeFiles/advancedMTClient.dir/build.make CMakeFiles/advancedMTClient.dir/clean
-.PHONY : CMakeFiles/advancedMTClient.dir/clean
+CMakeFiles/promisefuture.dir/clean:
+	$(MAKE) -f CMakeFiles/promisefuture.dir/build.make CMakeFiles/promisefuture.dir/clean
+.PHONY : CMakeFiles/promisefuture.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/producerconsumer.dir
@@ -103,7 +103,7 @@ CMakeFiles/advancedMTClient.dir/clean:
 CMakeFiles/producerconsumer.dir/all:
 	$(MAKE) -f CMakeFiles/producerconsumer.dir/build.make CMakeFiles/producerconsumer.dir/depend
 	$(MAKE) -f CMakeFiles/producerconsumer.dir/build.make CMakeFiles/producerconsumer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/akash_gosain/projects/practice/cpp/LLD/DesignPatterns/MultiThreading/build/CMakeFiles --progress-num=3,4 "Built target producerconsumer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/akash_gosain/projects/practice/cpp/LLD/DesignPatterns/MultiThreading/build/CMakeFiles --progress-num=1,2 "Built target producerconsumer"
 .PHONY : CMakeFiles/producerconsumer.dir/all
 
 # Build rule for subdir invocation for target.
