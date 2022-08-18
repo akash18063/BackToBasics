@@ -1,4 +1,5 @@
-/home/akash_gosain/projects/practice/cpp/LLD/DesignPatterns/MultiThreading/build/CMakeFiles/rebuild_cache.dir
-/home/akash_gosain/projects/practice/cpp/LLD/DesignPatterns/MultiThreading/build/CMakeFiles/edit_cache.dir
-/home/akash_gosain/projects/practice/cpp/LLD/DesignPatterns/MultiThreading/build/CMakeFiles/promisefuture.dir
-/home/akash_gosain/projects/practice/cpp/LLD/DesignPatterns/MultiThreading/build/CMakeFiles/producerconsumer.dir
+/home/akash/projects/LLD/DesignPatterns/MultiThreading/build/CMakeFiles/edit_cache.dir
+/home/akash/projects/LLD/DesignPatterns/MultiThreading/build/CMakeFiles/semaphores.dir
+/home/akash/projects/LLD/DesignPatterns/MultiThreading/build/CMakeFiles/producerconsumer.dir
+/home/akash/projects/LLD/DesignPatterns/MultiThreading/build/CMakeFiles/rebuild_cache.dir
+/home/akash/projects/LLD/DesignPatterns/MultiThreading/build/CMakeFiles/promisefuture.dir

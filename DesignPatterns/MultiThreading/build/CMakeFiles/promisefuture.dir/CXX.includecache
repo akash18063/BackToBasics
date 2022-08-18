@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/akash_gosain/projects/practice/cpp/LLD/DesignPatterns/MultiThreading/promise_future.cpp
+/home/akash/projects/LLD/DesignPatterns/MultiThreading/promise_future.cpp
 iostream
 -
 future

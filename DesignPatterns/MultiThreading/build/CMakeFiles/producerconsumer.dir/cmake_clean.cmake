@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/producerconsumer.dir/producer_consumer.cpp.o"
-  "producerconsumer"
   "producerconsumer.pdb"
+  "producerconsumer"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -6,9 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/akash_gosain/projects/practice/cpp/LLD/DesignPatterns/MultiThreading/advancedMTClient.cpp
+/home/akash/projects/LLD/DesignPatterns/MultiThreading/semaphores.cpp
 iostream
 -
-future
+thread
+-
+condition_variable
 -
 

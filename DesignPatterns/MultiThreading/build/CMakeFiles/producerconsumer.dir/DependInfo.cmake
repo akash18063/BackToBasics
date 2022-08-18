@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/akash_gosain/projects/practice/cpp/LLD/DesignPatterns/MultiThreading/producer_consumer.cpp" "/home/akash_gosain/projects/practice/cpp/LLD/DesignPatterns/MultiThreading/build/CMakeFiles/producerconsumer.dir/producer_consumer.cpp.o"
+  "/home/akash/projects/LLD/DesignPatterns/MultiThreading/producer_consumer.cpp" "/home/akash/projects/LLD/DesignPatterns/MultiThreading/build/CMakeFiles/producerconsumer.dir/producer_consumer.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -6,8 +6,11 @@ set(THREADS_PREFER_PTHREAD_FLAG ON)
 find_package(Threads REQUIRED)
 add_executable(producerconsumer producer_consumer.cpp)
 add_executable(promisefuture promise_future.cpp)
+add_executable(semaphores semaphores.cpp)
 target_link_libraries (producerconsumer PRIVATE Threads::Threads)
 target_link_libraries (promisefuture PRIVATE Threads::Threads)
+target_link_libraries (semaphores PRIVATE Threads::Threads)
+
 
 
 #target_link_libraries(client library)

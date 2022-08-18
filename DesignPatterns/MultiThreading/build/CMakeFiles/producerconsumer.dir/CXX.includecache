@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/akash_gosain/projects/practice/cpp/LLD/DesignPatterns/MultiThreading/producer_consumer.cpp
+/home/akash/projects/LLD/DesignPatterns/MultiThreading/producer_consumer.cpp
 iostream
 -
 deque

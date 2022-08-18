@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/promisefuture.dir/promise_future.cpp.o"
-  "promisefuture"
   "promisefuture.pdb"
+  "promisefuture"
 )
 
 # Per-language clean rules from dependency scanning.

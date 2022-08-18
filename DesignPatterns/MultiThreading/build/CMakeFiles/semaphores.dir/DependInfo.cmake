@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/akash_gosain/projects/practice/cpp/LLD/DesignPatterns/MultiThreading/advancedMTClient.cpp" "/home/akash_gosain/projects/practice/cpp/LLD/DesignPatterns/MultiThreading/build/CMakeFiles/advancedMTClient.dir/advancedMTClient.cpp.o"
+  "/home/akash/projects/LLD/DesignPatterns/MultiThreading/semaphores.cpp" "/home/akash/projects/LLD/DesignPatterns/MultiThreading/build/CMakeFiles/semaphores.dir/semaphores.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
