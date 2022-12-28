@@ -4,6 +4,9 @@
 #binaries
 *build*/
 
+# vscode
+.vscode/
+
 # Compiled Object files
 *.slo
 *.lo
