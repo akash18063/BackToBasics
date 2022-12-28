@@ -1,1 +1,0 @@
-/usr/bin/c++    -rdynamic CMakeFiles/semaphores.dir/semaphores.cpp.o  -o semaphores -pthread 
