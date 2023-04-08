@@ -1,2 +1,1 @@
-# LLD
-low level design patterns and problems
+Contains random code for basic stuff
